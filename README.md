@@ -1,2 +1,2 @@
 # Myproject1
-project pertama saya
+project iseng pertama saya, lumayan pengalaman nambah ilmu
