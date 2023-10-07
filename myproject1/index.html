@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Planet.sport</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark">
+    <!-- navbar section start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">My Project</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Harga sewa">Sewa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Others</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/Jadwal lapangan">Jadwal</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="/Contact">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- firt layout start -->
+    <div class="container-fluid text-center text-light" style="height: 100vh">
+      <!-- carousel start -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="/img/badmin.jpg" class="d-block w-100" alt="badminton" style="height: 300px" />
+            <div class="carousel-caption">
+              <h5>✨Lantai 1✨</h5>
+              <p>💪Lapangan badminton💪</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/img/ftsl.jpg" class="d-block w-100" alt="futsal" style="height: 300px" />
+            <div class="carousel-caption">
+              <h5>✨Lantai 2✨</h5>
+              <p>🦶Lapangan Futsal🦶</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/img/miniso.jpg" class="d-block w-100" alt="minisoccer" style="height: 300px" />
+            <div class="carousel-caption">
+              <h5>✨Lantai 3✨</h5>
+              <p>🏃‍♂️Lapangan Minisoccer🏃‍♂️</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel end -->
+
+      <!-- logo start -->
+      <div class="row align-items-center">
+        <div class="col-12">
+          <img src="img/planet.png" class="img-fluid mt-2" alt="thum" style="width: 250px" height="250px" />
+          <h2>🧩Planet Hotspot sport🧩</h2>
+          <p>Planet hotspot mempunyai gedung olahraga <span class="text-danger">terbaik</span> di indonesia</p>
+        </div>
+      </div>
+      <!-- logo end -->
+
+      <!-- card start -->
+      <div class="row mt-4">
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Harga Sewa</h5>
+              <p class="card-text">Harga sewa tiap jam dan lapangan berbeda beda</p>
+              <a href="/Harga sewa" class="btn btn-dark d-block">Lihat Harga</a>
+            </div>
+          </div>
+        </div>
+          <div class="col-sm-4 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Jadwal Lapangan</h5>
+                <p class="card-text">Lihat jadwal lapangan sebelum ngebooking</p>
+                <a href="/Jadwal lapangan/" class="btn btn-dark d-block">Lihat Jadwal</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Booking Lapangan</h5>
+                <p class="card-text">Mau ngebooking lapangan ya disini</p>
+                <a href="/Contact" class="btn btn-dark d-block">Kontak Saya</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- card end -->
+
+    <!-- firt layout end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
